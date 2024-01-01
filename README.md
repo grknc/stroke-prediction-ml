@@ -1,11 +1,31 @@
-# Stroke Prediction using Classification Algorithms | Hyperparameter Optimization | Cross-Validation | Smote Sampling
+# Stroke Prediction using Classification Algorithms 
 
 
-## Bu proje kapsamında yapmış olduğumuz çalışmalar şunlardır:
+Bu veri seti, cinsiyet, yaş, çeşitli hastalıklar ve sigara içme durumu gibi girdi parametrelerine dayalı olarak bir hastanın felç geçirme ihtimalinin olup olmadığını tahmin etmek için kullanılıyor. Verilerdeki her satır hastayla ilgili bilgi sağlar.
 
-A stroke occurs when the blood supply to the brain is interrupted, leading to damage or death of brain cells. The risk factors for stroke include high blood pressure, smoking, diabetes, obesity, family history of stroke, and previous history of stroke or heart disease.
+Özellik Bilgileri
+1) kimlik: benzersiz tanımlayıcı
+2) cinsiyet: "Erkek", "Kadın" veya "Diğer"
+3) yaş: hastanın yaşı
+4) hipertansiyon: Hastada hipertansiyon yoksa 0, hastada hipertansiyon varsa 1
+5) heart_disease: Hastanın herhangi bir kalp hastalığı yoksa 0, eğer hastada kalp hastalığı varsa 1
+6) ever_married: "Hayır" veya "Evet"
+7) iş_türü: "çocuklar", "Govt_jov", "Hiç çalışmadı", "Özel" veya "Serbest meslek sahibi"
+8) Konut_türü: "Kırsal" veya "Kentsel"
+9) avg_glucose_level: kandaki ortalama glikoz seviyesi
+10) bmi: vücut kitle indeksi
+11) Smoking_status: "önceden içiyordum", "hiç içmedim", "sigara içiyor" veya "Bilinmiyor"*
+12) felç: Hastanın felç geçirmesi durumunda 1, felç geçirmemesi halinde 0
+*Not: Smoking_status'taki "Bilinmeyen", bu hasta için bilginin mevcut olmadığı anlamına gelir
 
-Stroke prediction models use a combination of risk factors to estimate an individual's likelihood of having a stroke within a certain time frame. These models can be helpful in guiding prevention and treatment strategies, such as lifestyle modifications, medication management, and close monitoring for early signs of stroke.
+İlgili çalışmada öncelikle EDA sürecini ele alacağız.
 
-This refers to the use of machine learning algorithms and techniques to develop models for predicting an individual's risk of having a stroke based on various factors such as age, blood pressure, cholesterol levels, smoking status, and other medical history. Machine learning algorithms can analyze large amounts of data and identify patterns and correlations that can be used to make predictions with a high degree of accuracy. These models can assist healthcare professionals in identifying individuals who may be at high risk for stroke and implementing preventive measures
+Kurulum
+Pycharm
+
+Kütüphaneler
+Numpy
+Pandas
+Seaborn
+
 
