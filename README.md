@@ -18,16 +18,6 @@ Bu veri seti, cinsiyet, yaş, çeşitli hastalıklar ve sigara içme durumu gibi
 12) felç: Hastanın felç geçirmesi durumunda 1, felç geçirmemesi halinde 0
 *Not: Smoking_status'taki "Bilinmeyen", bu hasta için bilginin mevcut olmadığı anlamına gelir
 
-## İlgili çalışmada hedeflediğimiz adımlar şunlar olacak:
-
-### EDA - Veri Görselleştirme
-
-### Veri Ön İşleme
-
-### Özellik Mühendisliği
-
-### Modelleme
-
 ## Kurulum
 
 Pycharm
@@ -41,3 +31,12 @@ Pandas
 Seaborn
 
 
+## İlgili repo çalışmasında hedeflediğimiz adımlar şunlar olacak:
+
+#### EDA - Veri Görselleştirme
+
+#### Veri Ön İşleme
+
+#### Özellik Mühendisliği
+
+#### Modelleme
