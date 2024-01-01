@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("healthcare-dataset-stroke-data.csv")
+df = pd.read_csv("data/healthcare-dataset-stroke-data.csv")
 
 
 def check_df(dataframe, head=5):
@@ -26,7 +26,7 @@ def check_df(dataframe, head=5):
     print("##################### Quantiles #####################")
     print(dataframe.quantile([0, 0.05, 0.50, 0.95, 0.99, 1]).T)
 
-
+check_df(df)
 
 
 def grab_col_names(dataframe, cat_th=10, car_th=20):
