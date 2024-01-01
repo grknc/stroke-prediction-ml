@@ -20,12 +20,16 @@ Bu veri seti, cinsiyet, yaş, çeşitli hastalıklar ve sigara içme durumu gibi
 
 İlgili çalışmada öncelikle EDA sürecini ele alacağız.
 
-Kurulum
+## Kurulum
+
 Pycharm
 
-Kütüphaneler
+## Kütüphaneler
+
 Numpy
+
 Pandas
+
 Seaborn
 
 
