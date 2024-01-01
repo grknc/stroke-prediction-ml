@@ -1,6 +1,7 @@
 # Stroke Prediction using Classification Algorithms | Hyperparameter Optimization | Cross-Validation | Smote Sampling
 
 
+## Bu proje kapsamında yapmış olduğumuz çalışmalar şunlardır:
 
 A stroke occurs when the blood supply to the brain is interrupted, leading to damage or death of brain cells. The risk factors for stroke include high blood pressure, smoking, diabetes, obesity, family history of stroke, and previous history of stroke or heart disease.
 
